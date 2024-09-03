@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.15)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
+add_subdirectory(${CMAKE_SOURCE_DIR}/lib/raylib)
+project(gamething)
+file(GLOB gamething_srcs ${CMAKE_SOURCE_DIR}/src/*.cpp)
+add_executable(gamething ${gamething_srcs})
+target_link_libraries(gamething raylib)
+
