@@ -1,5 +1,5 @@
 # BasicClock
-Basic clock made in raylib
+Basic clock made in C++ using raylib
 
 ## How to compile
 ### Windows:
