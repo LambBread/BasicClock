@@ -20,7 +20,7 @@ echo.
 echo Compiling...
 cd src
 
-em++ -o ../bin/gamething.html %cpp_files% -lraylib -Os -Wall -L ../lib/raylib_wasm/lib -I ../lib/raylib_wasm/include -s USE_GLFW=3 -s ASYNCIFY -DPLATFORM_WEB
+em++ -o ../bin/BasicClock.html %cpp_files% -lraylib -Os -Wall -L ../lib/raylib_wasm/lib -I ../lib/raylib_wasm/include -s USE_GLFW=3 -s ASYNCIFY -DPLATFORM_WEB
 
 echo Done.
 cd..
