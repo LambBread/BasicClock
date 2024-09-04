@@ -9,3 +9,6 @@ To compile for web, type `compileweb` into the command line, make sure you have 
 For compiling for desktop, try calling CMake on the source.
 For web, try rewriting `compileweb.bat` for Bash.
 
+
+[Live version](https://LambBread.github.io/BasicClock_web/BasicClock.html)
+
